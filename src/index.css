@@ -7,7 +7,7 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -116,6 +116,7 @@ body {
 }
 
 .masthead h1 {
+    font-family:'VT323', monospace;
     text-align: center;
 }
 
@@ -140,6 +141,10 @@ body {
 .test-wrapper {
     border: 10px solid grey;
     border-radius: 10px;
+}
+
+.test-wrapper textarea::placeholder {
+    font-family: 'VT323', monospace;
 }
 
 #origin-text {
@@ -170,7 +175,8 @@ body {
 }
 
 .timer {
-    font-size: 3em;
+    font-family: '8BIT WONDER', sans-serif;                                
+    font-size: 2em;
     font-weight: bold;
 }
 
